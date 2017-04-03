@@ -11,7 +11,6 @@ namespace GraphicsOOP3
     class MyShape
     {
         Bitmap bmp;
-        GraphicsPath gp = new GraphicsPath(FillMode.Winding);
         Pen pen = new Pen(Color.Black);
         Graphics g;
         RectangleF r;
