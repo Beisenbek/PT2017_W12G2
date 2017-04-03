@@ -16,5 +16,12 @@ namespace GraphicsOOP3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Graphics g = pictureBox1.CreateGraphics();
+            MyShape ms = new MyShape(new RectangleF(10, 10, 30, 30), Color.Red);
+            ms.Draw(g);
+        }
     }
 }
